@@ -1,0 +1,45 @@
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.note-card {
+    transition: transform 0.2s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-4px);
+}
+
+.favorite-badge {
+    background: #ffc107;
+    color: #000;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    padding: 4px 10px;
+}
+
+.note-content-preview {
+    max-height: 80px;
+    overflow: hidden;
+    color: #555;
+}
+
+.btn-rounded {
+    border-radius: 12px;
+}
+
+.page-title {
+    font-weight: 700;
+}
